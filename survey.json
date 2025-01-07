@@ -1,0 +1,55 @@
+{
+    "title": "University Sports Interest Survey",
+    "questions": [
+        { "id": 1, "text": "What is your name?", "type": "text" },
+        { 
+            "id": 2, 
+            "text": "What is your age?", 
+            "type": "choice", 
+            "options": ["18-22", "23-27", "28-32", "33 and above"] 
+        },
+        { 
+            "id": 3, 
+            "text": "What year of university are you in?", 
+            "type": "choice", 
+            "options": ["1st Year", "2nd Year", "3rd Year", "4th Year"] 
+        },
+        { 
+            "id": 4, 
+            "text": "Do you play any sports?", 
+            "type": "choice", 
+            "options": ["Yes", "No"],
+            "branch": {
+                "Yes": 5,
+                "No": 15
+            }
+        },
+        { 
+            "id": 5, 
+            "text": "Which sports do you play?", 
+            "type": "choice", 
+            "options": ["Soccer", "Basketball", "Tennis", "Swimming", "Volleyball"]
+        },
+        { "id": 6, "text": "How would you rate your skill level in the sport?", "type": "choice", "options": ["Beginner", "Intermediate", "Expert"] },
+        { "id": 7, "text": "How often do you practice your sport?", "type": "choice", "options": ["Daily", "Weekly", "Occasionally"] },
+        { "id": 8, "text": "Do you participate in any team sports?", "type": "choice", "options": ["Yes", "No"] },
+        { "id": 9, "text": "What is your preferred type of sport?", "type": "choice", "options": ["Competitive", "Recreational"] },
+        { "id": 10, "text": "What time of day do you prefer to practice sports?", "type": "choice", "options": ["Morning", "Afternoon", "Evening"] },
+        { "id": 11, "text": "Would you be interested in joining a sports club at the university?", "type": "choice", "options": ["Yes", "No"] },
+        { "id": 12, "text": "What sports equipment do you currently own?", "type": "text" },
+        { "id": 13, "text": "Would you prefer to train indoors or outdoors?", "type": "choice", "options": ["Indoors", "Outdoors"] },
+        { "id": 14, "text": "How important is fitness to you?", "type": "choice", "options": ["Very important", "Important", "Not important"] },
+        { "id": 15, "text": "Have you attended any university sports events?", "type": "choice", "options": ["Yes", "No"] },
+        { "id": 16, "text": "If yes, how would you rate the events?", "type": "choice", "options": ["Excellent", "Good", "Fair", "Poor"] },
+        { "id": 17, "text": "What type of sports events would you like to see more often?", "type": "text" },
+        { "id": 18, "text": "Do you think sports participation helps with academic performance?", "type": "choice", "options": ["Yes", "No"] },
+        { "id": 19, "text": "Would you like to volunteer for university sports programs?", "type": "choice", "options": ["Yes", "No"] },
+        { "id": 20, "text": "What motivates you to participate in sports?", "type": "choice", "options": ["Health", "Competition", "Fun", "Socializing"] },
+        { "id": 21, "text": "Do you think the university provides adequate sports facilities?", "type": "choice", "options": ["Yes", "No"] },
+        { "id": 22, "text": "What improvements would you suggest for the sports facilities?", "type": "text" },
+        { "id": 23, "text": "How likely are you to recommend university sports programs to others?", "type": "choice", "options": ["Very likely", "Somewhat likely", "Not likely"] },
+        { "id": 24, "text": "Are you aware of all the sports programs offered by the university?", "type": "choice", "options": ["Yes", "No"] },
+        { "id": 25, "text": "Do you have any suggestions to improve university sports programs?", "type": "text" }
+    ],
+    "finalMessage": "Thank you for participating in this survey!"
+}

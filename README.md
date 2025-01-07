@@ -20,6 +20,9 @@ The Dynamic survey for sport interests is a customizable survey tool designed to
 
 # How to Use
 
+- Firstly download the files and open them in a code editor, lastly run the code.
+- This survey script dynamically loads questions from a JSON file, interacts with the user 
+ to collect responses, and displays the final message along with the user's answers.
 - Answer questions based on your sports preferences and skill level.
 - Submit any additional feedback for the university’s sports programs.
 
